@@ -51,7 +51,7 @@ main> aside> nav>a{
 main>section >div{
     width:100%;
     height: 300px;
-    background-color: lightpink;
+    background-color: #7e7f84;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     justify-content: space-evenly;
