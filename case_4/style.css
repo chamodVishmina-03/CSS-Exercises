@@ -1,0 +1,77 @@
+
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+section {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+
+header {
+    position: sticky;
+    top: 0;
+    width: 100%;
+    padding: 10px;
+    margin: 0;
+    background: rgb(246, 6, 6);
+    text-align: left;
+    font-size: 32px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    z-index: 10;
+}
+
+
+div {
+    font-family: 'Arial Black' , sans-serif;
+    font-size: 70px;
+    text-align: center;
+    margin: auto;
+
+}
+
+
+section:nth-of-type(1) {
+    background: #ffffff;
+}
+section:nth-of-type(2) {
+    background: #89cff4;
+}
+section:nth-of-type(3) {
+    background: #484a55;
+}
+section:nth-of-type(4) {
+    background: #ec2311;
+}
+
+#card1{
+    color: white;
+    background-color: #ec2311;
+}
+
+#card2{
+    color: white;
+    background-color: #07318f;
+}
+
+#card3{
+    color: white;
+    background-color: #03030c;
+}
+
+#card4{
+    color: white;
+    background-color: #300906;
+}
